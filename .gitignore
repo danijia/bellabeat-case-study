@@ -1,0 +1,9 @@
+# Ignore the superstore SQLite database file
+/db/*.db
+
+# Ignore all CSVs in any /data subfolder
+/data/**/*.csv  
+
+
+
+
