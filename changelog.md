@@ -30,4 +30,33 @@
 - Import/Load cleaned csvs into respective tables  
 - Begin SQL-based data exploration and preprocessing.
 
+### 2025-10-08
+🧩 **Notes**
+- identifying the csvs the march to april and april to may have in common: 
+  - dailyActivity_merged
+  - heartrate_second_merged
+  - hourlyCalories_merged
+  - hourlyIntensities_merged
+  - hourlySteps_merged
+  - minuteCaloriesNarrow_merged
+  - minuteIntensitiesNarrow_merged
+  - minuteMetsNarrow_merged
+  - minuteSleep_merged
+  - minuteStepsNarrow_merged
+  - weightLogInfo_merged
+- identifying the csvs only present in april to may folder
+  - dailyCalories_merged
+  - dailyIntensities_merged
+  - sleepDay_merged
+  - dailySteps_merged
+  - minuteIntensitiesWide_merged
+  - minuteStepsWide_merged
+  - minuteCaloriesWide_merged
+- all folders in the march to april folder are also in the april to may folder
+- the april to may folder contains 7 extra csvs that are not in the march to april folder. 3 of these csvs contain the same data as other csvs, but in a wide format. this means, in the sql database, there will be 4 extra tables with only april to may data. 
+
+- since the march to april folder and the april to may folders have 11 csv names in common, i added a _1 ending to all the csvs in the march to april folder, and a _2 to all the common csvs in the april to may folder. 
+- each csv will represent a table in the database. next i need to finish the ER diagram and standardize the table names 
+
+
 
