@@ -11,6 +11,6 @@ This project analyzes smart device fitness data to gather insights for Bellabeat
 Analyze smart device usage from FitBit users to discover trends in activity, sleep, and wellness habits. Apply these insights to help Bellabeat understand how consumers enage wit health-tracking devices. Apply these insights to help Bellabeat improve marketing strategies for the Leaf wellness tracker.
 
 ## Key Steps
-- Loade and combined CSVs into pandas DataFrames.
+- Loaded and combined CSVs into pandas DataFrames.
 - Converted timestamps data from objects to datetime format
 - Analyzed trends in user activity
