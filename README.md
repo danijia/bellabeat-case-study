@@ -10,6 +10,9 @@ This project analyzes smart device fitness data to gather insights for Bellabeat
 ## Business Task:
 Analyze smart device usage from FitBit users to discover trends in activity, sleep, and wellness habits. Apply these insights to help Bellabeat understand how consumers enage with health-tracking devices. Apply these insights to help Bellabeat improve marketing strategies for the Leaf wellness tracker.
 
+## The Data
+The raw data is from this [kaggle dataset](https://www.kaggle.com/datasets/arashnic/fitbit). The data used in the case study is in long format, loaded and combined into several dataframes. 
+
 ## Key Steps
 - Loaded and combined CSVs into pandas DataFrames.
 - Converted timestamps data from objects to datetime format
