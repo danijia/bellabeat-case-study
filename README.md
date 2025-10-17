@@ -8,7 +8,7 @@ This project analyzes smart device fitness data to gather insights for Bellabeat
 - Python, Pandas, Matplotlib, NumPy
 
 ## Business Task:
-Analyze smart device usage from FitBit users to discover trends in activity, sleep, and wellness habits. Apply these insights to help Bellabeat understand how consumers enage wit health-tracking devices. Apply these insights to help Bellabeat improve marketing strategies for the Leaf wellness tracker.
+Analyze smart device usage from FitBit users to discover trends in activity, sleep, and wellness habits. Apply these insights to help Bellabeat understand how consumers enage with health-tracking devices. Apply these insights to help Bellabeat improve marketing strategies for the Leaf wellness tracker.
 
 ## Key Steps
 - Loaded and combined CSVs into pandas DataFrames.
